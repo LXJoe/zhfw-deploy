@@ -2,9 +2,6 @@ package com.joe.zhfwDeploy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @auther liangxiongqiao
@@ -12,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @description
  */
 @SpringBootApplication
-public class MainApplication {
+public class ZHFWDeployApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(MainApplication.class, args);
+		SpringApplication.run(ZHFWDeployApplication.class, args);
 	}
 }

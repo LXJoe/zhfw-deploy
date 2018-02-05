@@ -3,3 +3,16 @@ server:
     servlet-path : /zhfw-deploy
     port : 8082
     uri-encoding : utf-8
+
+#spring
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp  #jsp视图的前缀
+      suffix: .jsp          #jsp视图的后缀
+  #数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306?study
+    username: root
+    password: 12321
